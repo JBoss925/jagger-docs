@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/content/docs.ts","./src/content/guides.ts","./src/features/docs/DocsHeader.tsx","./src/features/docs/DocsPage.tsx","./src/features/docs/DocsSidebar.tsx","./src/features/docs/ProjectSwitcher.tsx","./src/features/docs/SearchHighlight.tsx","./src/features/docs/docSearch.ts"],"version":"6.0.3"}
