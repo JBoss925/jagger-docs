@@ -9,7 +9,7 @@ import {
 } from "../../content/docs";
 import { renderSectionBlock } from "@jagger-ui/components/editorial/PaperBlocks";
 import ImageViewer from "@jagger-ui/components/editorial/ImageViewer";
-import DocsHeader from "./DocsHeader";
+import EditorialHeader from "@jagger-ui/components/editorial/EditorialHeader";
 import DocsSidebar from "./DocsSidebar";
 import { useMediaQuery } from "@jagger-ui/hooks/useMediaQuery";
 import { findDocMatch } from "./docSearch";
@@ -54,7 +54,8 @@ export default function DocsPage() {
   const pageIndex = active ? project!.pages.indexOf(active) : -1;
   return (
     <div className={`papers-page papers-page--${theme} docs-page`}>
-      <DocsHeader
+      <EditorialHeader
+        mode="docs"
         projectName={project?.name}
         projectSlug={project?.source.slug}
         theme={theme}
